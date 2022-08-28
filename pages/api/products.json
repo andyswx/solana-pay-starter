@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "Bulls",
+    "price": "0.09",
+    "description": "Get this Chicago Bulls NFT pack for only $0.09! Includes 3 of the hotest Chicago Bulls NFTs!",
+    "image_url": "https://cloudflare-ipfs.com/ipfs/QmbGWXGEcquCpdSj3rS67syUyaCwhjbxBzPj7RMUZn9uxb",
+    "filename": "Emojis.zip",
+    "hash": "QmbGWXGEcquCpdSj3rS67syUyaCwhjbxBzPj7RMUZn9uxb"
+  },
+  {
+    "id": 2,
+    "name": "Addidas",
+    "price": "0.09",
+    "description": "Get this Addidas NFT pack for only $0.09! Includes 3 of the hotest Addidas NFTs!",
+    "image_url": "https://cloudflare-ipfs.com/ipfs/QmfCsG1xNHQJpH78KdQj6yzMiLZwpsGM88AYxcvoK1rU1d",
+    "filename": "Emojis.zip",
+    "hash": "QmfCsG1xNHQJpH78KdQj6yzMiLZwpsGM88AYxcvoK1rU1d"
+  },
+  {
+    "id": 3,
+    "name": "Nike",
+    "price": "0.09",
+    "description": "Get this Nike NFT pack for only $0.09! Includes 3 of the hotest Nike NFTs!",
+    "image_url": "https://cloudflare-ipfs.com/ipfs/QmPGFVBc2ynRfgA1z9M3oZVN8hBySVfHthdBKgFDBSjiRd",
+    "filename": "Emojis.zip",
+    "hash": "QmPGFVBc2ynRfgA1z9M3oZVN8hBySVfHthdBKgFDBSjiRd"
+  },
+  {
+    "id": 4,
+    "name": "Yankees Cap",
+    "price": "0.09",
+    "image_url": "https://d34rp5g5ujxojg.cloudfront.net/60185333---1.jpg?refresh8-18-2020",
+    "description": "A brand new New York Yankees Hat!"
+  }
+]
