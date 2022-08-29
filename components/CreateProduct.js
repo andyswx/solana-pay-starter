@@ -2,7 +2,25 @@ import React, { useState } from "react";
 import { create } from "ipfs-http-client";
 import styles from "../styles/CreateProduct.module.css";
 
-const client = create("https://ipfs.infura.io:5001/api/v0");
+// IPFS setup
+// const projectId = `"${process.env.PROJECT_ID}"`;
+// const projectSecret = `'${process.env.PROJECT_SECRET}'`;
+
+
+// Delete me!!
+console.log(projectId)
+console.log(projectSecret)
+
+const auth = 'Basic ' + Buffer.from(projectId + ':' + projectSecret).toString('base64');
+// const client = create("https://ipfs.infura.io:5001/api/v0");
+const client = create({
+  host: 'ipfs.infura.io',
+  port: 5001,
+  protocol: 'https',
+  headers: {
+    authorization: auth
+  }
+});
 
 const CreateProduct = () => {
 
@@ -15,13 +33,15 @@ const CreateProduct = () => {
   const [file, setFile] = useState({});
   const [uploading, setUploading] = useState(false);
 
-  async function onChange(e) {
+  async function upLoadFile(e) {
     setUploading(true);
     const files = e.target.files;
+    console.log("In OnChange...")
     try {
       console.log(files[0]);
       const added = await client.add(files[0]);
       setFile({ filename: files[0].name, hash: added.path });
+      console.log("File Added...")
     } catch (error) {
       console.log("Error uploading file: ", error);
     }
@@ -67,7 +87,7 @@ const CreateProduct = () => {
               className={styles.input}
               accept=".zip,.rar,.7zip"
               placeholder="Emojis"
-              onChange={onChange}
+              onChange={upLoadFile}
             />
             {file.name != null && <p className="file-name">{file.filename}</p>}
             <div className={styles.flex_row}>

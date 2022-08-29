@@ -32,5 +32,21 @@
     "price": "0.09",
     "image_url": "https://d34rp5g5ujxojg.cloudfront.net/60185333---1.jpg?refresh8-18-2020",
     "description": "A brand new New York Yankees Hat!"
+  },
+  {
+    "id": 5,
+    "name": "Lakers Cap",
+    "price": "0.09",
+    "image_url": "https://www.kickz.com/dw/image/v2/BGQV_PRD/on/demandware.static/-/Sites-kickz-master-catalog/default/dwc007b792/images/large/new_era-NBA_940_CHICAGO_BULLS-purple-1.jpg?sw=537&q=95",
+    "description": "A brand new Lakers Cap!"
+  },
+  {
+    "id": 6,
+    "name": "something",
+    "price": "0.09",
+    "image_url": "https://hatstore.imgix.net/697589823467_1.jpg?auto=compress%2Cformat&w=544&h=435&q=50",
+    "description": "",
+    "filename": "lakers.zip",
+    "hash": "QmZPP6B3NFzTkUUBKjCRvGPD1qWVhSf1RW1pSpH7pyZPvo"
   }
 ]
