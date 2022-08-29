@@ -3,8 +3,8 @@ import { create } from "ipfs-http-client";
 import styles from "../styles/CreateProduct.module.css";
 
 // IPFS setup
-// const projectId = `"${process.env.PROJECT_ID}"`;
-// const projectSecret = `'${process.env.PROJECT_SECRET}'`;
+const projectId = process.env.PROJECT_ID;
+const projectSecret = process.env.PROJECT_SECRET;
 
 
 // Delete me!!
